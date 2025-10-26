@@ -62,8 +62,8 @@ export const ContactPage: React.FC = () => {
           </div>
           <h3 className="text-xl font-semibold mb-2">Email</h3>
           <p className="text-gray-600 mb-2">Send us a message</p>
-          <a href="mailto:info@chickchick.lk" className="text-primary-600 font-medium hover:underline">
-            info@chickchick.lk
+          <a href="mailto:info@farmfoods.lk" className="text-primary-600 font-medium hover:underline">
+            info@farmfoods.lk
           </a>
           <p className="text-sm text-gray-500 mt-2">We'll reply within 24 hours</p>
         </div>

@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">🐔 Chick Chick Katudedda</h3>
+            <h3 className="text-lg font-semibold mb-4">🐔 Farm Foods</h3>
             <p className="text-gray-400 text-sm">
               Your trusted source for fresh, quality meat and poultry products. 
               We deliver freshness to your doorstep.
@@ -58,7 +58,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail size={16} />
-                <span>info@chickchick.lk</span>
+                <span>info@FarmFoods.lk</span>
               </li>
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin size={16} className="mt-1" />
@@ -90,7 +90,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2025 Chick Chick Katudedda. All rights reserved.</p>
+          <p>&copy; 2025 Farm Foods Katudedda. All rights reserved.</p>
         </div>
       </div>
     </footer>

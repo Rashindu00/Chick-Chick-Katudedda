@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="text-2xl font-bold text-primary-600">
-              🐔 Chick Chick Katudedda
+              🐔 Farm Foods
             </div>
           </Link>
 

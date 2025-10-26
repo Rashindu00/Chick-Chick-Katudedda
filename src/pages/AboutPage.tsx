@@ -11,7 +11,7 @@ export const AboutPage: React.FC = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-700 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">About Chick Chick Katudedda</h1>
+          <h1 className="text-5xl font-bold mb-4">About Farm Foods Katudedda</h1>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
             Your trusted partner for premium quality meat and poultry products since 2020
           </p>
@@ -24,7 +24,7 @@ export const AboutPage: React.FC = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p className="text-gray-600 mb-4">
-              Founded in 2020, Chick Chick Katudedda started with a simple mission: to provide fresh, 
+              Founded in 2020, Farm Foods Katudedda started with a simple mission: to provide fresh, 
               high-quality meat and poultry products to families across Sri Lanka. What began as a small 
               local butcher shop has grown into one of the most trusted names in the industry.
             </p>
@@ -214,7 +214,7 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Commitment to You</h2>
           <p className="text-lg text-gray-600 mb-8">
-            At Chick Chick Katudedda, we're more than just a meat shop. We're your trusted partner 
+            At Farm Foods Katudedda, we're more than just a meat shop. We're your trusted partner 
             in providing nutritious, high-quality protein for your family. Every product we offer 
             meets our rigorous quality standards, and we're committed to:
           </p>

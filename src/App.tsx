@@ -15,6 +15,8 @@ import { SpecialOffersPage } from './pages/SpecialOffersPage';
 import { AdminPage } from './pages/AdminPage';
 import { OrderSuccessPage } from './pages/OrderSuccessPage';
 import { OrdersPage } from './pages/OrdersPage';
+import { ContactPage } from './pages/ContactPage';
+import { AboutPage } from './pages/AboutPage';
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
                 <Route path="/admin" element={<AdminPage />} />
                 <Route path="/order-success" element={<OrderSuccessPage />} />
                 <Route path="/orders" element={<OrdersPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+                <Route path="/about" element={<AboutPage />} />
               </Routes>
             </main>
             <Footer />

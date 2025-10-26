@@ -23,7 +23,7 @@ export const HomePage: React.FC = () => {
               Premium quality chicken, beef, fish, and more delivered fresh to your doorstep
             </p>
             <div className="flex gap-4">
-              <Button onClick={() => navigate('/products')} size="lg" className="bg-white text-primary-600 hover:bg-gray-100">
+              <Button onClick={() => navigate('/products')} size="lg" className="border-white text-white hover:bg-white hover:text-primary-600">
                 Shop Now
                 <ArrowRight className="ml-2" size={20} />
               </Button>
@@ -109,7 +109,7 @@ export const HomePage: React.FC = () => {
           <p className="text-xl mb-8 text-primary-100">
             Browse our wide selection of premium quality products
           </p>
-          <Button onClick={() => navigate('/products')} size="lg" className="bg-white text-primary-600 hover:bg-gray-100">
+          <Button onClick={() => navigate('/products')} size="lg" className="border-white text-white hover:bg-white hover:text-primary-600">
             Start Shopping
             <ArrowRight className="ml-2" size={20} />
           </Button>

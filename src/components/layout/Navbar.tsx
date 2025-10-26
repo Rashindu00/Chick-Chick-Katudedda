@@ -37,6 +37,9 @@ export const Navbar: React.FC = () => {
             <Link to="/products" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               Products
             </Link>
+            <Link to="/grocery" className="text-gray-700 hover:text-fresh-600 font-medium transition-colors">
+              Grocery
+            </Link>
             <Link to="/special-offers" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               Special Offers
             </Link>
@@ -104,6 +107,9 @@ export const Navbar: React.FC = () => {
               </Link>
               <Link to="/products" className="text-gray-700 hover:text-primary-600 font-medium">
                 Products
+              </Link>
+              <Link to="/grocery" className="text-gray-700 hover:text-fresh-600 font-medium">
+                Grocery
               </Link>
               <Link to="/special-offers" className="text-gray-700 hover:text-primary-600 font-medium">
                 Special Offers

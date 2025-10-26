@@ -22,7 +22,12 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link to="/products" className="text-gray-400 hover:text-white transition-colors">
-                  Products
+                  Meat & Poultry
+                </Link>
+              </li>
+              <li>
+                <Link to="/grocery" className="text-gray-400 hover:text-white transition-colors">
+                  Grocery Items
                 </Link>
               </li>
               <li>

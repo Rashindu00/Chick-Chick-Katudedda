@@ -2,13 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/Button';
 import { ProductList } from '../components/products/ProductList';
-import { getFeaturedProducts, getSpecialOffers } from '../data/products';
+import { getFeaturedProducts, getSpecialOffers, getGroceryProducts } from '../data/products';
 import { ArrowRight, Truck, Shield, Clock } from 'lucide-react';
 
 export const HomePage: React.FC = () => {
   const navigate = useNavigate();
   const featuredProducts = getFeaturedProducts().slice(0, 4);
   const specialOffers = getSpecialOffers().slice(0, 4);
+  const groceryProducts = getGroceryProducts().slice(0, 4);
 
   return (
     <div>
@@ -100,19 +101,44 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
+      {/* Grocery Section */}
+      {groceryProducts.length > 0 && (
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <div className="flex items-center justify-between mb-8">
+              <div>
+                <h2 className="text-3xl font-bold text-gray-900">Grocery Items</h2>
+                <p className="text-gray-600 mt-2">Rice, Sugar, Lentils, Oils, Soaps & More</p>
+              </div>
+              <Button onClick={() => navigate('/grocery')} className="bg-fresh-600 hover:bg-fresh-700">
+                View All Grocery
+                <ArrowRight className="ml-2" size={16} />
+              </Button>
+            </div>
+            <ProductList products={groceryProducts} />
+          </div>
+        </section>
+      )}
+
       {/* CTA Section */}
       <section className="py-16 bg-primary-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Ready to Order Fresh Meat?
+            Ready to Order Fresh Meat & Groceries?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
             Browse our wide selection of premium quality products
           </p>
-          <Button onClick={() => navigate('/products')} size="lg" className="border-white text-white hover:bg-white hover:text-primary-600">
-            Start Shopping
-            <ArrowRight className="ml-2" size={20} />
-          </Button>
+          <div className="flex gap-4 justify-center flex-wrap">
+            <Button onClick={() => navigate('/products')} size="lg" className="bg-fresh-600 hover:bg-fresh-700 text-white">
+              Shop Meat & Poultry
+              <ArrowRight className="ml-2" size={20} />
+            </Button>
+            <Button onClick={() => navigate('/grocery')} size="lg" className="bg-fresh-600 hover:bg-fresh-700 text-white">
+              Shop Grocery
+              <ArrowRight className="ml-2" size={20} />
+            </Button>
+          </div>
         </div>
       </section>
     </div>

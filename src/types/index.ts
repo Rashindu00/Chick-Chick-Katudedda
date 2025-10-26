@@ -6,6 +6,7 @@ export enum Category {
   BEEF = 'Beef',
   FISH = 'Fish',
   MUTTON = 'Mutton',
+  GROCERY = 'Grocery',
 }
 
 export interface Product {
@@ -13,7 +14,7 @@ export interface Product {
   name: string;
   description: string;
   price: number;
-  unit: 'kg' | 'unit' | 'pack';
+  unit: 'kg' | 'unit' | 'pack' | 'g' | 'ml' | 'l';
   category: Category;
   stock: number;
   image: string;

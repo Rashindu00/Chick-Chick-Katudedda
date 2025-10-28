@@ -60,15 +60,6 @@ export const LoginPage: React.FC = () => {
               </button>
             </p>
           </form>
-
-          <div className="mt-6 pt-6 border-t">
-            <p className="text-sm text-gray-600 mb-2">Demo accounts:</p>
-            <ul className="text-xs text-gray-500 space-y-1">
-              <li>• Admin: admin@meatshop.com</li>
-              <li>• Customer: customer@example.com</li>
-              <li>• Password: any password</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

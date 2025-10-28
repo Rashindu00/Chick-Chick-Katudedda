@@ -24,9 +24,11 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="text-2xl font-bold text-primary-600">
-              🐔 Farm Foods
-            </div>
+           <img 
+              src="/assets/FarmFoods.jpg" 
+              alt="Farm Foods Logo" 
+              className="h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
